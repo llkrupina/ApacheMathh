@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0579a85-e1e2-495d-8176-fa8f4cf005f2" name="Changes" comment="third">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e0579a85-e1e2-495d-8176-fa8f4cf005f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,13 +71,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713597550916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth">
+      <option name="closed" value="true" />
+      <created>1713601626675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713601626675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="secondd" />
     <MESSAGE value="third" />
-    <option name="LAST_COMMIT_MESSAGE" value="third" />
+    <MESSAGE value="fourth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

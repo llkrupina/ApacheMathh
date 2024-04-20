@@ -1,12 +1,16 @@
 package org.example;
 
-        import javax.swing.*;
-        import javax.swing.filechooser.FileNameExtensionFilter;
-        import javax.swing.table.DefaultTableModel;
-        import java.awt.*;
-        import java.awt.event.ActionEvent;
-        import java.awt.event.ActionListener;
-        import java.io.File;
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URISyntaxException;
+
 public class GUI {
     private String filePath;
     private DefaultTableModel resultTableModel;
@@ -42,8 +46,15 @@ public class GUI {
                 int returnValue = fileChooser.showOpenDialog(null);
                 if (returnValue == JFileChooser.APPROVE_OPTION) {
                     File selectedFile = fileChooser.getSelectedFile();
-
                     filePath = selectedFile.getAbsolutePath();
+
+                    // Открыть директорию, содержащую jar файл
+                    try {
+                        File jarFile = new File(GUI.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
+                        Desktop.getDesktop().open(jarFile.getParentFile());
+                    } catch (IOException | URISyntaxException ex) {
+                        ex.printStackTrace();
+                    }
                 }
             }
         });

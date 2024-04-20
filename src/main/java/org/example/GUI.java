@@ -52,13 +52,6 @@ public class GUI {
                 if (returnValue == JFileChooser.APPROVE_OPTION) {
                     File selectedFile = fileChooser.getSelectedFile();
                     filePath = selectedFile.getAbsolutePath();
-
-                    // Открыть директорию, содержащую jar файл
-                    try {
-                        Desktop.getDesktop().open(new File(currentDirectory));
-                    } catch (IOException ex) {
-                        ex.printStackTrace();
-                    }
                 }
             }
         });

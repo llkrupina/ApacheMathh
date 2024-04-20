@@ -1,12 +1,12 @@
 package org.example;
 
-import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.table.DefaultTableModel;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
+        import javax.swing.*;
+        import javax.swing.filechooser.FileNameExtensionFilter;
+        import javax.swing.table.DefaultTableModel;
+        import java.awt.*;
+        import java.awt.event.ActionEvent;
+        import java.awt.event.ActionListener;
+        import java.io.File;
 public class GUI {
     private String filePath;
     private DefaultTableModel resultTableModel;

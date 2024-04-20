@@ -6,6 +6,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.swing.*;
+
 public class GetDataFromExcel {
 
     public double[][] getDataFromSheet(String filePath, String sheetName) {
@@ -14,13 +16,17 @@ public class GetDataFromExcel {
             Sheet sheet = workbook.getSheet(sheetName);
 
             if (sheet == null) {
-                System.out.println("Лист не найден.");
+                //System.out.println("Лист не найден.");
+                JOptionPane.showMessageDialog(null, "Лист не найден", "Ошибка", JOptionPane.ERROR_MESSAGE);
+
                 return null;
             }
 
             int rows = sheet.getPhysicalNumberOfRows();
             if (rows < 2) {
-                System.out.println("Лист пустой или содержит только заголовок.");
+               // System.out.println("Лист пустой или содержит только заголовок.");
+                JOptionPane.showMessageDialog(null, "Лист пустой или содержит только заголовок", "Ошибка", JOptionPane.ERROR_MESSAGE);
+
                 return null;
             }
 

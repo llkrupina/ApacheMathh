@@ -31,14 +31,16 @@ public class SaveDataInExcel {
                     cell.setCellValue(String.valueOf(tableModel.getValueAt(row, col)));
                 }
             }
+            File xlsxFile = new File(file.getAbsolutePath() + ".xlsx");
+
 
             // Сохраняем workbook в файл
-            FileOutputStream outputStream = new FileOutputStream(file);
+            FileOutputStream outputStream = new FileOutputStream(xlsxFile);
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
 
-            System.out.println("Данные сохранены в файл: " + file.getAbsolutePath());
+            System.out.println("Данные сохранены в файл: " + xlsxFile.getAbsolutePath());
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Ошибка при сохранении данных в файл.");

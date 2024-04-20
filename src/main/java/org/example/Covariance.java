@@ -20,7 +20,7 @@ public class Covariance {
             }
             covariance += pair;
         }
-        covariance /= numSize;
+        covariance /= numSize -1;
 
         return covariance;
     }

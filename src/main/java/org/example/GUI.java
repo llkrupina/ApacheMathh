@@ -43,6 +43,11 @@ public class GUI {
                 JFileChooser fileChooser = new JFileChooser();
                 FileNameExtensionFilter filter = new FileNameExtensionFilter("Excel Files", "xls", "xlsx");
                 fileChooser.setFileFilter(filter);
+
+                // Установка текущей директории
+                String currentDirectory = System.getProperty("user.dir");
+                fileChooser.setCurrentDirectory(new File(currentDirectory));
+
                 int returnValue = fileChooser.showOpenDialog(null);
                 if (returnValue == JFileChooser.APPROVE_OPTION) {
                     File selectedFile = fileChooser.getSelectedFile();
@@ -50,9 +55,8 @@ public class GUI {
 
                     // Открыть директорию, содержащую jar файл
                     try {
-                        File jarFile = new File(GUI.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
-                        Desktop.getDesktop().open(jarFile.getParentFile());
-                    } catch (IOException | URISyntaxException ex) {
+                        Desktop.getDesktop().open(new File(currentDirectory));
+                    } catch (IOException ex) {
                         ex.printStackTrace();
                     }
                 }

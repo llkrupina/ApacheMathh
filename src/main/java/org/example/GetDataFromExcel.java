@@ -3,8 +3,6 @@ package org.example;
 import org.apache.poi.ss.usermodel.*;
 import java.io.FileInputStream;
 import java.io.IOException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import javax.swing.*;
 
@@ -24,7 +22,6 @@ public class GetDataFromExcel {
 
             int rows = sheet.getPhysicalNumberOfRows();
             if (rows < 2) {
-               // System.out.println("Лист пустой или содержит только заголовок.");
                 JOptionPane.showMessageDialog(null, "Лист пустой или содержит только заголовок", "Ошибка", JOptionPane.ERROR_MESSAGE);
 
                 return null;

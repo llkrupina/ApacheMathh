@@ -7,9 +7,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.awt.Desktop;
-import java.io.IOException;
-import java.net.URISyntaxException;
 
 public class GUI {
     private String filePath;
@@ -68,43 +65,44 @@ public class GUI {
         });
 
         calculateArithmeticMeanButton.addActionListener(e -> {
-            manager.calculateArithmeticMean(resultTableModel);
+            manager.calculate("ArithmeticMean", resultTableModel);
         });
 
         calculateGeometricMeanButton.addActionListener(e -> {
-            manager.calculateGeometricMean( resultTableModel);
+            manager.calculate("GeometricMean", resultTableModel);
         });
 
         calculateStandardDeviationButton.addActionListener(e -> {
-            manager.calculateStandardDeviation( resultTableModel);
+            manager.calculate("StandardDeviation", resultTableModel);
         });
 
         calculateRangeButton.addActionListener(e -> {
-            manager.calculateRange( resultTableModel);
+            manager.calculate("Scope", resultTableModel);
         });
 
         calculateCovarianceButton.addActionListener(e -> {
-            manager.calculateCovariance( resultTableModel);
+            manager.calculate("CovarianceCalculator", resultTableModel);
         });
 
         calculateQuantityButton.addActionListener(e -> {
-            manager.calculateQuantity( resultTableModel);
+            manager.calculate("Quantity", resultTableModel);
         });
 
         calculateVariationCoefficientButton.addActionListener(e -> {
-            manager.calculateVariationCoefficient( resultTableModel);
+            manager.calculate("VariationCoefficient", resultTableModel);
         });
 
         calculateConfidenceIntervalButton.addActionListener(e -> {
-            manager.calculateConfidenceInterval( resultTableModel);
+            manager.calculate("СonfidenceInterval", resultTableModel);
         });
 
         calculateDispersionButton.addActionListener(e -> {
-            manager.calculateDispersion(resultTableModel);
+            manager.calculate("Dispersion", resultTableModel);
         });
 
         calculateMinMaxButton.addActionListener(e -> {
-            manager.calculateMinMax( resultTableModel);
+             manager.calculate("MinMax", resultTableModel);
+
         });
 
         saveToFileButton.addActionListener(e -> {

@@ -10,7 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0579a85-e1e2-495d-8176-fa8f4cf005f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ApacheMath_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticMean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticMean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Covariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CovarianceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Deviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Deviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dispersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dispersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GeometricMean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GeometricMean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GetDataFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GetDataFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MinMaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MinMaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SaveDataInExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SaveDataInExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Scope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VariationCoefficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VariationCoefficient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/СonfidenceInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/СonfidenceInterval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +59,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "onboarding.tips.debug.path": "/Users/alina/Documents/GitHub/ApacheMath/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
@@ -97,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713602803727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eight">
+      <option name="closed" value="true" />
+      <created>1713603702114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713603702114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,7 +134,8 @@
     <MESSAGE value="fourth" />
     <MESSAGE value="fifth" />
     <MESSAGE value="seven" />
-    <option name="LAST_COMMIT_MESSAGE" value="seven" />
+    <MESSAGE value="eight" />
+    <option name="LAST_COMMIT_MESSAGE" value="eight" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
